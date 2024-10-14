@@ -1,23 +1,35 @@
 # pw-coba
 
 # RESPUL API Users
-## request body :
+
+# Registrasi Users
+
+## Request body :
 ```json
 {
-  "username":"example@gmail.com",
+  "email":"example@gmail.com",
   "password":"rahasia",
   "username": "carto"
 }
 ```
-## response success :
+## Response success :
 ```json
 {
   "message": "success",
   "code": 200,
   "data": {
-    "username":"example@gmail.com",
+    "email":"example@gmail.com",
     "username": "carto"
   }
 }
 ```
-## response Failed :
+## Response Failed :
+```json
+{
+  "message": "error",
+  "code": 401,
+  "data": {
+    "username or password or email is wrong"
+  }
+}
+```
