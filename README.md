@@ -10,4 +10,14 @@
 }
 ```
 ## response success :
+```json
+{
+  "message": "success",
+  "code": 200,
+  "data": {
+    "username":"example@gmail.com",
+    "username": "carto"
+  }
+}
+```
 ## response Failed :
